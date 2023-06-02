@@ -1,3 +1,4 @@
+"use client"
 const time = () => {
     var showdate = new Date().toLocaleString()
     return(
