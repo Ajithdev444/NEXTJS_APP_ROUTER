@@ -1,16 +1,12 @@
 const time = () => {
-    var showdate = new Date()
-    var displaytodaysdate = showdate.getDate()+'/'+(showdate.getMonth()+1)+'/'+showdate.getFullYear()
-    var displayTime = showdate.getHours()+'/'+showdate.getMinutes()+'/'+showdate.getSeconds();
+    var showdate = new Date().toLocaleString()
     return(
         <div className="flex justify-center items-center max-w-screen-xl bg-slate-600">
             <div className="flex flex-col text-white p-8">
                 <h1>
-                Date : {displaytodaysdate}
+                Date and time : {showdate}
                 </h1>
-                <h1>
-                Time : {displayTime}
-                </h1> 
+               
             </div>
         </div>
     )
