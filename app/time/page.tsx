@@ -4,7 +4,7 @@ const time = () => {
     var displayTime = showdate.getHours()+'/'+showdate.getMinutes()+'/'+showdate.getSeconds();
     return(
         <div className="flex justify-center items-center max-w-screen-xl bg-slate-600">
-            <div className="flex flex-col text-white p-10">
+            <div className="flex flex-col text-white p-8">
                 <h1>
                 Date : {displaytodaysdate}
                 </h1>
