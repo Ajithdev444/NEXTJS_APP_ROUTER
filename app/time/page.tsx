@@ -1,4 +1,4 @@
-
+export const dynamic = 'force-dynamic'
 const time = () => {
     var showdate = new Date().toLocaleString()
     return(
